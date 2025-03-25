@@ -31,5 +31,3 @@ Output:
 Write your answer in the Solution class, and run the main file / class to test.
 
 Judge file contains the solution. Try challenging yourself before looking if you cannot get it.
-
-There is also an Explanation file that contains a step by step explanation of the solution.
