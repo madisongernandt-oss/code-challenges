@@ -7,8 +7,8 @@ class Judge:
             [5, 3, 6, 4, 2, 3],
             [1, 2, 4, 8, 16, 32],
         ]
-        for test_case, expected in test_cases:
-            self.test(test_case, expected)
+        for test_case in test_cases:
+            self.test(test_case, self.test_case_solution_output(test_case))
 
     def test(self, h, expected):
         solution = Solution()

@@ -9,8 +9,8 @@ class Judge:
             ["Fruit", "Grain", "Fruit", "Grain", "Beef"],
             []
         ]
-        for test_case, expected in test_cases:
-            self.test(test_case, expected)
+        for test_case in test_cases:
+            self.test(test_case, self.test_case_solution_output(test_case))
 
     def test(self, stock, expected):
         solution = Solution()

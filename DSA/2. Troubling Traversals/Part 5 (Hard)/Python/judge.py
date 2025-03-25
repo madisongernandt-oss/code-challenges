@@ -19,12 +19,12 @@ class Judge:
                 [4,0],
                 [4,5]
             ]
-        ];
+        ]
 
         test_cases_n = [
             7,
             6
-        ];
+        ]
 
         for test_case_paths, test_case_n in zip(test_cases_paths, test_cases_n):
             self.test(test_case_paths, test_case_n)

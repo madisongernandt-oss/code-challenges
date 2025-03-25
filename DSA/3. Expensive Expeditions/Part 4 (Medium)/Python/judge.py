@@ -20,12 +20,12 @@ class Judge:
                 [0, 1, 0, 1, -1, 1],
                 [1, 2, -4, 1, 1, 1]
             ]
-        ];
+        ]
 
         testCasesN = [
             5,
             3
-        ];
+        ]
 
         for i in range(len(testCasesM)):
             self.test(testCasesM[i], testCasesN[i], self.test_case_solution_output(testCasesM[i], testCasesN[i]))
