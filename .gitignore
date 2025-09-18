@@ -1,5 +1,6 @@
-.idea
-.fleet
+.idea/
+.fleet/
+.vscode/
 out
 *.iml
 __pycache__
